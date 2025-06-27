@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="bg-white/90 backdrop-blur-sm sticky top-0 z-50 shadow-sm border-b border-peach-200">
       <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center gap-3 justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="relative">
@@ -21,7 +21,7 @@ const Header = () => {
           </div>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-3 lg:gap-8">
             <a href="#pets" className="text-sage-700 hover:text-coral-500 font-medium transition-colors">
               Find Your Friend
             </a>
